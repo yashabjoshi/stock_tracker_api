@@ -10,7 +10,7 @@ def get_news(company, up_down, percentage):
     """Fetches the latest news articles related to the specified company."""
     # Set up parameters for the News API request
     parameters = {
-        "apiKey": "abcdef",  # Replace with your actual News API key
+        "apiKey": "abcdefs",  # Replace with your actual News API key
         "q": company,        # Query for the specified company
         "language": "en",    # Language of the news articles
         "pageSize": 3        # Limit to 3 articles
