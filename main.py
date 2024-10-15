@@ -31,7 +31,7 @@ def get_news(company, up_down, percentage):
 parameters_stock = {
     "function": "TIME_SERIES_DAILY",  # Specify the API function
     "symbol": "TSLA",                  # Stock symbol for Tesla
-    "apikey": "6Q8TGJL77RKIJ0PE"       # Replace with your actual Alpha Vantage API key
+    "apikey": "6Q8E"       # Replace with your actual Alpha Vantage API key
 }
 
 # Make the API request for stock data
